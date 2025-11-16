@@ -165,7 +165,6 @@ func plusOne() []int {
 		carry += p
 	}
 	fmt.Println(digits)
-	fmt.Println(carry)
 	l := len(digits)
 	if carry%10 == 0 {
 		l++
